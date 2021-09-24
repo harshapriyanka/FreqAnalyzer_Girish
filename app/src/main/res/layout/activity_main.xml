@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp">
+
+
+    <!--<com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/graphy"/>-->
+    <Button
+        android:id="@+id/playSound"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Play Audio" />
+
+    <Button
+        android:id="@+id/playSound57"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Play Audio 57" />
+
+    <Button
+        android:id="@+id/playSound31013"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Play Audio 31013" />
+
+    <Button
+        android:id="@+id/recordAudio"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Record Audio" />
+
+    <Button
+        android:id="@+id/stopRecord"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Stop Record" />
+
+
+    <Button
+        android:id="@+id/filterAudio"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:text="Filter Audio" />
+
+    <Button
+        android:id="@+id/MFCC"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="MFCC" />
+
+    <Button
+        android:id="@+id/Amplitude_Energy_Data"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="Amplitude_Energy_Data" />
+
+    <Button
+        android:id="@+id/showGraph"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:text="Show Graph" />
+
+    <ProgressBar
+        android:id="@+id/simpleProgressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:indeterminate="true"
+        android:max="100"
+        android:padding="20dp"
+        android:progress="50"
+        android:visibility="invisible"/>
+
+</LinearLayout>
